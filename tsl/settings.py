@@ -141,6 +141,7 @@ SIMPLE_JWT = {
     'ROTATE_REFRESH_TOKENS': True,
 }
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = "sgbackend.SendGridBackend"
+SENDGRID_API_KEY = "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"
 
 CORS_ALLOW_ALL_ORIGINS = True

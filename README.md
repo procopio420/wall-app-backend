@@ -31,3 +31,8 @@ python3 manage.py test
 coverage run --source='.' manage.py test
 coverage report
 ```
+
+## Security
+
+There are some API keys and Secret Keys exposed, but it's to make it easier to test
+And all of those keys are new and temporary

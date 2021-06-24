@@ -57,7 +57,7 @@ class RegisterSerializer(serializers.ModelSerializer):
                 validated_data['username']),
             'Hello {} {}, now you can login at Wall App using username and password that you created.'.format(
                 validated_data['first_name'], validated_data['last_name']),
-            'notreply@wallapp.com',
+            'Wall App <lucas-procopio@outlook.com>',
             [validated_data['email']],
             fail_silently=False,
         )
