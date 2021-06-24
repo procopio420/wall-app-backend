@@ -7,8 +7,8 @@ Wall App was my first API made using Django Rest Framework
 Clone the project and install it's requirements.
 
 ```bash
-git clone
-cd pasta
+git clone git@github.com:procopio420/wall-app-backend.git
+cd wall-app-backend
 pip install -r requirements.txt
 python3 manage.py migrate
 ```
