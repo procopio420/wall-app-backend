@@ -1,7 +1,7 @@
 # Wall App - Backend
 
 Wall App was my first API made using Django Rest Framework  
-The project is hosted using Heroku: https://wall-app-back.herokuapp.com/
+The project is hosted using Heroku: https://wall-app-back.herokuapp.com/wall
 
 ## Installation
 
