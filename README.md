@@ -10,16 +10,17 @@ Clone the project and install it's requirements.
 git clone
 cd pasta
 pip install -r requirements.txt
+python3 manage.py migrate
 ```
 
 ## Usage
 
 ```bash
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 ## Test
 
 ```bash
-python manage.py test
+python3 manage.py test
 ```
