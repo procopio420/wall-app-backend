@@ -24,3 +24,10 @@ python3 manage.py runserver
 ```bash
 python3 manage.py test
 ```
+
+## Tests Coverage
+
+```bash
+coverage run --source='.' manage.py test
+coverage report
+```
