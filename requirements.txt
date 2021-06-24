@@ -13,3 +13,4 @@ coverage==5.5
 sendgrid-django==4.2.0
 whitenoise==5.0.1
 gunicorn==20.1.0
+django-heroku==0.3.1

@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 from datetime import timedelta
 import os
+import django_heroku
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -152,3 +153,5 @@ EMAIL_BACKEND = "sgbackend.SendGridBackend"
 SENDGRID_API_KEY = "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"
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+django_heroku.settings(locals())
