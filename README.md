@@ -35,5 +35,5 @@ coverage report
 
 ## To Do
 
-- [ ] Hide API keys and secret keys
-- [ ] Fix SendGrid
+- [x] Hide API keys and secret keys
+- [x] Fix SendGrid
