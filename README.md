@@ -1,6 +1,7 @@
 # Wall App - Backend
 
-Wall App was my first API made using Django Rest Framework 
+Wall App was my first API made using Django Rest Framework  
+The project is hosted using Heroku: https://wall-app-back.herokuapp.com/
 
 ## Installation
 
@@ -32,7 +33,7 @@ coverage run --source='.' manage.py test
 coverage report
 ```
 
-## Security
+## To Do
 
-There are some API keys and Secret Keys exposed, but it's to make it easier to test
-And all of those keys are new and temporary
+- [ ] Hide API keys and secret keys
+- [ ] Fix SendGrid
