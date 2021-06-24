@@ -11,3 +11,4 @@ sqlparse==0.4.1
 toml==0.10.2
 coverage==5.5
 sendgrid-django==4.2.0
+whitenoise==3.3.1
