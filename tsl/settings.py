@@ -15,6 +15,7 @@ from datetime import timedelta
 from decouple import config
 import os
 import django_heroku
+import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -147,4 +148,5 @@ SENDGRID_API_KEY = config('SENDGRID_API_KEY')
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-django_heroku.settings(locals())
+db_from_env = dj_database_url.config(conn_max_age=0, ssl_require=False)
+django_heroku.settings(locals() ,databases=False)
